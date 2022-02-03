@@ -4,14 +4,18 @@ Requirements
 Ubuntu 20
 python3.9
 Getting Started
-sudo apt update; sudo apt install python3.9-dev
+
+sudo apt update
+sudo apt install python3.9-dev
 tmux new -s 43210
 git clone https://github.com/imayushsaini/Bombsquad-Ballistica-Modded-Server
 cd Bombsquad-Ballistica-Modded-Server
 Now edit config.yaml in root dir change server name , port , admins , playlist , team name etc..
+
 chmod 777 bombsquad_server
 chmod 777 dist/bombsquad_headless
 ./bombsquad_server
+
 If ports are open , you can connect to your server now
 More Configuration
 Open dist/ba_root/mods/setting.json , change value according to you.
